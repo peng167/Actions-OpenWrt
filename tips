@@ -1,0 +1,24 @@
+#源码选择
+2
+① https://github.com/Lienol/openwrt
+3
+② https://github.com/coolsnowwolf/lede
+4
+​
+5
+#ssh编译命令
+6
+cd openwrt && make menuconfig
+7
+​
+8
+#ssh界面获取config
+9
+./scripts/diffconfig.sh > seed.config
+10
+cat seed.config
+11
+12
+#上传tmp刷机命令
+13
+dd if=/tmp/upload/op.img of=/dev/sda
