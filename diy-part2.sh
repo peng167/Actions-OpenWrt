@@ -21,15 +21,15 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/openwrt-pack
 echo '下载bandwidthd'
 git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/openwrt-packages/luci-app-bandwidthd
 
-echo '下载eqos'
-git clone https://github.com/garypang13/luci-app-eqos.git package/openwrt-packages/luci-app-eqos
+#echo '下载eqos'
+#git clone https://github.com/garypang13/luci-app-eqos.git package/openwrt-packages/luci-app-eqos
 
-echo '下载jd签到'
-git clone https://github.com/jerrykuku/node-request.git package/openwrt-packages/node-request
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/openwrt-packages/luci-app-jd-dailybonus
+#echo '下载jd签到'
+#git clone https://github.com/jerrykuku/node-request.git package/openwrt-packages/node-request
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/openwrt-packages/luci-app-jd-dailybonus
 
-echo '下载系统高级设置'
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-advancedsetting package/openwrt-packages/luci-app-advancedsetting
+#echo '下载系统高级设置'
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-advancedsetting package/openwrt-packages/luci-app-advancedsetting
 
 echo '替换UPNP为2.0.20170421'
 rm -rf feeds/packages/net/miniupnpd
